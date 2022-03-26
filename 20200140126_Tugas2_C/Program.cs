@@ -46,11 +46,11 @@ namespace _20200140126_Tugas2_C
                     + "insert into Detail_Transaksi (Id_Detail, Id_Kue, Subtotal, Bayar, Kembalian) values('d004', '001', '60000', '100000', '40000')"
                     + "insert into Detail_Transaksi (Id_Detail, Id_Kue, Subtotal, Bayar, Kembalian) values('d005', '005', '15000', '50000', '35000')"
 
-                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t001', '002', 'k003', 'p002', 'd001', '17 Maret 2022', {t'19:15:05'})"
-                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t002', '001', 'k005', 'p001', 'd002', '14 Maret 2022', {t'10:13:20'})"
-                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t003', '004', 'k002', 'p005', 'd003', '21 Maret 2022', {t'15:08:15'})"
-                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t004', '005', 'k001', 'p003', 'd004', '23 Maret 2022', {t'21:05:17'})"
-                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t005', '003', 'k004', 'p004', 'd005', '21 Maret 2022', {t'20:15:09'})"
+                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t001', '002', 'k003', 'p002', 'd001', '17 Maret 2022', '19:15:05')"
+                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t002', '001', 'k005', 'p001', 'd002', '14 Maret 2022', '10:13:20')"
+                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t003', '004', 'k002', 'p005', 'd003', '21 Maret 2022', '15:08:15')"
+                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t004', '005', 'k001', 'p003', 'd004', '23 Maret 2022', '21:05:17')"
+                    + "insert into Transaksi (Id_Transaksi, Id_Kue, Id_Kasir, Id_Pembeli, Id_Detail, Tgl_Transaksi, Jam_Transaksi) values('t005', '003', 'k004', 'p004', 'd005', '21 Maret 2022', '20:15:09')"
 
                     , con);
                 cm.ExecuteNonQuery();
